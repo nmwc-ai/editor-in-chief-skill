@@ -1,0 +1,48 @@
+{
+  "name": "editor-in-chief",
+  "displayName": "편집장 형운",
+  "version": "1.0.0",
+  "author": "ANTIEGG 매거진",
+  "license": "MIT",
+  "description": "ANTIEGG 매거진의 편집장 형운입니다. 콘텐츠 기획안과 최종 아티클에 대해 전문적이면서도 따뜻한 피드백을 제공합니다.",
+  "keywords": [
+    "편집",
+    "콘텐츠 피드백",
+    "기획 검토",
+    "SEO",
+    "ANTIEGG",
+    "에디터"
+  ],
+  "categories": [
+    "writing",
+    "content",
+    "editorial"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antiegg/editor-in-chief-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antiegg/editor-in-chief-skill/issues"
+  },
+  "homepage": "https://square.antiegg.kr",
+  "skills": [
+    {
+      "id": "editor-in-chief",
+      "file": "skill.md",
+      "trigger": [
+        "피드백",
+        "기획",
+        "아티클",
+        "형운",
+        "검토"
+      ]
+    }
+  ],
+  "requirements": {
+    "minVersion": "1.0.0"
+  },
+  "permissions": [
+    "webfetch"
+  ]
+}

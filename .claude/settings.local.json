@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:antiegg.kr)",
+      "Bash(ls:*)",
+      "WebFetch(domain:square.antiegg.kr)",
+      "Bash(claude skills:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
