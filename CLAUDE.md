@@ -71,7 +71,23 @@ node find-no-planning-docs.js "TOKEN"
 - 팀-콘텐츠 채널
 - 6개 스쿼드 채널 (그레이, 브랜드, 아트, 컬쳐, 플레이스, 피플)
 
-### 2. 다른 스킬들
+### 2. editor-audit 스킬 (`/editor-audit`)
+**목적**: 월별 에디터 활동 전수조사 + HTML 대시보드 + Vercel 배포
+
+**사용 예**:
+```
+/editor-audit 3월
+/editor-audit 4월
+```
+
+**수집 항목**:
+- Slack: 기획안 제출 여부/일자, 피드백 남긴/받은 횟수
+- Ghost CMS: 아티클 발행 여부, 최종 수정일
+- 휴식중/마감지연 메모
+
+**참조 스크립트**: `march-audit-v3.js`
+
+### 3. 다른 스킬들
 - **copywriting**: 기획안 제목/부제 카피 개선
 - **content-strategy**: 기획 방향성, 차별화 분석
 - **seo**: 최종 아티클 SEO 검토
