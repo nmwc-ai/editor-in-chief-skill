@@ -168,18 +168,13 @@ node find-no-planning-docs.js "TOKEN"
 ## 파일 구조
 
 ```
-~/Documents/AI/editor-in-chief/
+~/Documents/Work/ANTIEGG/Project/_core/editor-in-chief/
 ├── CLAUDE.md                           (이 파일)
 ├── collect-planning-docs-direct.js     (기획안 수집)
 ├── find-no-planning-docs.js            (미제출자 찾기)
 ├── package.json
-└── node_modules/
-
-~/.claude/skills/editor-in-chief/
 ├── skill.md                             (기본 스킬)
-└── editor-activity-stats/
-    ├── SKILL.md                         (통계 스킬)
-    └── stats-collector.ts               (구현)
+└── node_modules/
 ```
 
 ---
